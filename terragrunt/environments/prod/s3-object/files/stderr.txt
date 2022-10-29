@@ -1,0 +1,2 @@
+/var/lib/amazon/ssm/i-0582da9bbb9180fa0/document/orchestration/d6b5ac74-414c-4aac-abe1-0239e8483b0f/awsrunShellScript/0.awsrunShellScript/_script.sh: 11: Syntax error: end of file unexpected (expecting ")")
+failed to run commands: exit status 2

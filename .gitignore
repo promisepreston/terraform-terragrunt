@@ -1,0 +1,5 @@
+**/.terraform.lock.hcl
+**/.terraform
+**/.terragrunt-cache
+.DS_Store
+Brewfile.lock.json
