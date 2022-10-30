@@ -17,7 +17,7 @@ OR
 
     cd terragrunt
 
-Install brew packages specified in the `Brewfile`:
+For MacOS users, install brew packages specified in the `Brewfile`:
 
     brew bundle
 
