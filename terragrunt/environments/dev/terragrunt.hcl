@@ -4,6 +4,21 @@
 # apply, validate, etc). This allows you to inject this provider
 # configuration in all the modules that includes the root file.
 
+generate "versions" {
+  path      = "versions_override.tf"
+  if_exists = "overwrite_terragrunt"
+  contents  = <<EOF
+    terraform {
+      required_providers {
+        aws = {
+          source  = "hashicorp/aws"
+          version = "4.37.0"
+        }
+      }
+    }
+EOF
+}
+
 generate "provider" {
   path = "provider.tf"
   if_exists = "overwrite_terragrunt"
