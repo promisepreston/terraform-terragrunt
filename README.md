@@ -1,5 +1,12 @@
 # README
 
+This is a simple project that implements the features of **terragrunt** for a similar **terraform** project.
+
+This will help you to get started on how to start integrating **terragrunt** into your **terraform** projects.
+
+The terraform version is specified in the `.terraform-version` file in the root directory
+The terragrunt version is specified in the `.terragrunt-version` file in the root directory
+
 ## Setup tools
 
 Switch to the required folder:
@@ -26,6 +33,7 @@ Install terragrunt using the version specified in the `.terragrunt-version`:
 
 Run all commands:
 
+    terragrunt run-all init
     terragrunt run-all plan
     terragrunt run-all validate
     terragrunt run-all apply
